@@ -2,7 +2,7 @@ let	nomeHeroi = "Elendil"
 let	xpHeroi = 9500
 let	nivelHeroi
 
-if(xpHeroi <= 1000){
+if(xpHeroi < 1000){
 	nivelHeroi = "Ferro"
 }else if(xpHeroi >= 1001 && xpHeroi <= 2000){
 	nivelHeroi = "Bronze"
@@ -21,4 +21,3 @@ if(xpHeroi <= 1000){
 }
 
 console.log("O Herói de nome " + nomeHeroi + " está no nível de " + nivelHeroi)
-
